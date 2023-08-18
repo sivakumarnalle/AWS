@@ -18,7 +18,7 @@ import software.amazon.awssdk.services.s3.waiters.S3Waiter;
 
 public class S3Util {
 	
-	private static final String BUCKET = "skmrbucket123456";
+	private static final String BUCKET = "<<bucket name>>";
 
 	public static void uploadFile(String fileName, InputStream inputStream)
 			throws S3Exception, AwsServiceException, SdkClientException, IOException {
